@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MoneyManager",
+    "slug": "MoneyManager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": ".Frontend/assets/icon.png",
+    "splash": {
+      "image": "./Frontend/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./Frontend/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./Frontend/assets/favicon.png"
+    }
+  }
+}
