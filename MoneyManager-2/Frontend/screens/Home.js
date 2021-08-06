@@ -33,159 +33,174 @@ const Home = () => {
       expenses: [
         {
           id: 1,
-          title: "School Fees",
+          title: "SP School Fees",
           description: "Singapore Polytechnic School Fees",
           location: "Singapore Polytechnic",
-          total: 2500.0,
+          total: 2500,
           status: pendingStatus,
-        }
+        },
+        {
+          id: 2,
+          title: "Huat Ah Language School Fees",
+          description: "Japanese Lesson",
+          location: "Huat Ah Language School Fees",
+          total: 800,
+          status: confirmStatus,
+        },
       ],
     },
     {
       id: 2,
       name: "Food",
       icon: icons.food,
-      color: COLORS.lightBlue,
+      color: COLORS.darkgreen,
       expenses: [
         {
-          id: 5,
-          title: "Vitamins",
-          description: "Vitamin",
-          location: "ByProgrammers' Pharmacy",
-          total: 25.0,
+          id: 1,
+          title: "McDonald's",
+          description: "McSpicy Meal UPSIZE",
+          location: "McDonald's Singapore Polytechnic",
+          total: 7.50,
           status: pendingStatus,
-        }
+        },
+        {
+          id: 2,
+          title: "McDonald's",
+          description: "Fillet O Fish Meal",
+          location: "McDonald's Dover MRT",
+          total: 5,
+          status: confirmStatus,
+        },
+        {
+          id: 3,
+          title: "Kou Fu",
+          description: "Huat Ah Chicken Rice Meal",
+          location: "McDonald's Dover MRT",
+          total: 6,
+          status: pendingStatus,
+        },
+        {
+          id: 4,
+          title: "Royal Steak House",
+          description: "Steak and Lamb Shank",
+          location: "Very Atas Grill",
+          total: 253.69,
+          status: confirmStatus,
+        },
       ],
     },
     {
       id: 3,
-      name: "Child",
-      icon: icons.baby_car,
-      color: COLORS.darkgreen,
+      name: "Sports",
+      icon: icons.sports_icon,
+      color: COLORS.purple,
       expenses: [
         {
-          id: 7,
-          title: "Toys",
-          description: "toys",
-          location: "ByProgrammers' Toy Store",
-          total: 25.0,
+          id: 1,
+          title: "Gym Membership",
+          description: "Monthly Fee",
+          location: "Anywhere Gym",
+          total: 95.99,
           status: confirmStatus,
         },
         {
-          id: 8,
-          title: "Baby Car Seat",
-          description: "Baby Car Seat",
-          location: "ByProgrammers' Baby Care Store",
-          total: 100.0,
+          id: 2,
+          title: " Climbing Gloves",
+          description: "Gym Equipment",
+          location: "Anywhere Gym",
+          total: 53.21,
+          status: confirmStatus,
+        },
+        {
+          id: 3,
+          title: " Climbing Shoes",
+          description: "Gym Equipment",
+          location: "Anywhere Gym",
+          total: 63,
+          status: confirmStatus,
+        },
+        {
+          id: 4,
+          title: "Instructor Cost",
+          description: "Fitness Instructor",
+          location: "Anywhere Gym",
+          total: 23,
           status: pendingStatus,
         },
         {
-          id: 9,
-          title: "Pampers",
-          description: "Pampers",
-          location: "ByProgrammers' Supermarket",
-          total: 100.0,
-          status: pendingStatus,
-        },
-        {
-          id: 10,
-          title: "Baby T-Shirt",
-          description: "T-Shirt",
-          location: "ByProgrammers' Fashion Store",
-          total: 20.0,
+          id: 5,
+          title: "Protein Shakey",
+          description: "WALAO DRINK FOR WHAT Protein Shake",
+          location: "HNC",
+          total: 69.90,
           status: pendingStatus,
         },
       ],
     },
     {
       id: 4,
-      name: "Beauty & Care",
-      icon: icons.healthcare,
-      color: COLORS.peach,
+      name: "Fashion",
+      icon: icons.cloth_icon,
+      color: COLORS.red,
       expenses: [
         {
-          id: 11,
-          title: "Skin Care product",
-          description: "skin care",
-          location: "ByProgrammers' Pharmacy",
-          total: 10.0,
-          status: pendingStatus,
-        },
-        {
-          id: 12,
-          title: "Lotion",
-          description: "Lotion",
-          location: "ByProgrammers' Pharmacy",
-          total: 50.0,
+          id: 1,
+          title: "T-Shirt",
+          description: "LV Brown Tshirt",
+          location: "MBS",
+          total: 120,
           status: confirmStatus,
         },
         {
-          id: 13,
-          title: "Face Mask",
-          description: "Face Mask",
-          location: "ByProgrammers' Pharmacy",
-          total: 50.0,
+          id: 2,
+          title: "T-Shirt",
+          description: "LV Black Tshirt",
+          location: "MBS",
+          total: 106.78,
           status: pendingStatus,
         },
         {
-          id: 14,
-          title: "Sunscreen cream",
-          description: "Sunscreen cream",
-          location: "ByProgrammers' Pharmacy",
-          total: 50.0,
-          status: pendingStatus,
+          id: 3,
+          title: "Pants",
+          description: "LV Black Sweat Pants",
+          location: "MBS",
+          total: 166.37,
+          status: confirmStatus,
         },
       ],
     },
     {
       id: 5,
-      name: "Sports",
-      icon: icons.sports_icon,
-      color: COLORS.purple,
+      name: "Misc",
+      icon: icons.misc,
+      color: COLORS.gray,
       expenses: [
         {
-          id: 15,
-          title: "Gym Membership",
-          description: "Monthly Fee",
-          location: "ByProgrammers' Gym",
-          total: 45.0,
+          id: 1,
+          title: "Insurance",
+          description: "Prudential",
+          location: "nil",
+          total: 653.98,
+          status: confirmStatus,
+        },
+        {
+          id: 1,
+          title: "Road Tax",
+          description: "Road Tax SAB 1234 C 6 MONTH",
+          location: "nil",
+          total: 680.0,
           status: pendingStatus,
         },
         {
-          id: 16,
-          title: "Gloves",
-          description: "Gym Equipment",
-          location: "ByProgrammers' Gym",
-          total: 15.0,
+          id: 1,
+          title: "Birthday Gift",
+          description: "Mamamia's birthday gift",
+          location: "nil",
+          total: 102.81,
           status: confirmStatus,
         },
       ],
     },
-    {
-      id: 6,
-      name: "Clothing",
-      icon: icons.cloth_icon,
-      color: COLORS.red,
-      expenses: [
-        {
-          id: 17,
-          title: "T-Shirt",
-          description: "Plain Color T-Shirt",
-          location: "ByProgrammers' Mall",
-          total: 20.0,
-          status: confirmStatus,
-        },
-        {
-          id: 18,
-          title: "Jeans",
-          description: "Blue Jeans",
-          location: "ByProgrammers' Mall",
-          total: 10.0,
-          status: pendingStatus,
-        },
-      ],
-    },
-
   ];
 
   const categoryListHeightAnimationValue = useRef(
@@ -208,27 +223,25 @@ const Home = () => {
           paddingHorizontal: SIZES.padding,
           backgroundColor: COLORS.white,
         }}
-      >      
-      </View>
+      ></View>
     );
   }
 
   function renderHeader() {
     return (
+
       <View
+  
         style={{
           paddingHorizontal: SIZES.padding,
           paddingVertical: SIZES.padding,
-          backgroundColor: COLORS.white,
         }}
       >
         <View>
           <Text style={{ color: COLORS.primary, ...FONTS.h2 }}>
             My Expenses
           </Text>
-          <Text style={{ ...FONTS.h3, color: COLORS.darkgray }}>
-            Summary
-          </Text>
+          <Text style={{ ...FONTS.h3, color: COLORS.darkgray }}>Summary</Text>
         </View>
 
         <View
@@ -260,7 +273,7 @@ const Home = () => {
 
           <View style={{ marginLeft: SIZES.padding }}>
             <Text style={{ color: COLORS.primary, ...FONTS.h3 }}>
-             12 December 2021
+              12 December 2021
             </Text>
             <Text style={{ ...FONTS.body3, color: COLORS.darkgray }}>
               100% More Than Last Month
@@ -684,8 +697,7 @@ const Home = () => {
         </View>
       );
     } else {
-
-        return (
+      return (
         <View style={{ alignItems: "center", justifyContent: "center" }}>
           <Svg
             width={SIZES.width}

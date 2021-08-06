@@ -17,7 +17,7 @@ export const COLORS = {
     yellow: '#F6BE00',
     lightBlue: '#95A9B8',
     darkgreen: '#008159',
-    peach: '#FF615F',
+    beige: '#FF615F',
     purple: '#8e44ad',
     red: '#FF0000',
 };
