@@ -60,7 +60,7 @@ const Home = () => {
           title: "McDonald's",
           description: "McSpicy Meal UPSIZE",
           location: "McDonald's Singapore Polytechnic",
-          total: 7.50,
+          total: 7.5,
           status: pendingStatus,
         },
         {
@@ -132,7 +132,7 @@ const Home = () => {
           title: "Protein Shakey",
           description: "WALAO DRINK FOR WHAT Protein Shake",
           location: "HNC",
-          total: 69.90,
+          total: 69.9,
           status: pendingStatus,
         },
       ],
@@ -184,7 +184,7 @@ const Home = () => {
           status: confirmStatus,
         },
         {
-          id: 1,
+          id: 2,
           title: "Road Tax",
           description: "Road Tax SAB 1234 C 6 MONTH",
           location: "nil",
@@ -192,12 +192,20 @@ const Home = () => {
           status: pendingStatus,
         },
         {
-          id: 1,
+          id: 3,
           title: "Birthday Gift",
           description: "Mamamia's birthday gift",
           location: "nil",
           total: 102.81,
           status: confirmStatus,
+        },
+        {
+          id: 4,
+          title: "Birthday Gift",
+          description: "PS12",
+          location: "Play Store",
+          total: 518.29,
+          status: pendingStatus,
         },
       ],
     },
@@ -223,15 +231,22 @@ const Home = () => {
           paddingHorizontal: SIZES.padding,
           backgroundColor: COLORS.white,
         }}
-      ></View>
+      >
+        <Image
+          source={icons.headerIcon}
+          style={{
+            width: 50,
+            height: 50,
+          }}
+        />
+        <Text style={{ color: COLORS.red, ...FONTS.h1 }}>The CB Project</Text>
+      </View>
     );
   }
 
   function renderHeader() {
     return (
-
       <View
-  
         style={{
           paddingHorizontal: SIZES.padding,
           paddingVertical: SIZES.padding,
@@ -589,6 +604,7 @@ const Home = () => {
     );
   }
 
+  //displaying the 
   function processCategoryDataToDisplay() {
     // Filter expenses with "Confirmed" status
     let chartData = categories.map((item) => {
